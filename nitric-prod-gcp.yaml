@@ -1,0 +1,4 @@
+name: prod-gcp
+provider: nitric/gcp@0.24.1
+gcp-project-id: your-project-id-here
+region: australia-southeast1
