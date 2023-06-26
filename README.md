@@ -1,4 +1,4 @@
-<h2 align="center">Nitric multi-cloud PulumiUP demo</h2>
+<h2 align="center">Nitric multi-cloud demo for PulumiUP 2023</h2>
 
 <p align="center">
   <a href="https://nitric.io">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-This example can be easily deploy to AWS, GCP or Azure. At the moment the infrastructure scripts support AWS and GCP deployment load balancing but could be adapted to include Azure as an additional deployment target as well.
+This is an example of an application built with the [Nitric framework](https://nitric.io), showing how you can easily develop locally and deploy to the cloud(s) of your choice without writing loads of infrastructure. This example can be easily deployed to AWS, GCP or Azure. At the moment the infrastructure scripts support AWS and GCP deployment load balancing but could be adapted to include Azure as an additional deployment target as well.
 
 ## Running locally
 
@@ -73,7 +73,7 @@ nitric up
 
 and select your azure stack to deploy.
 
-### Making it multicloud
+### Making it multi-cloud
 
 If you've deployed to both AWS and GCP, there is a script available to wire up their respective APIs to a cloudflare load balancer.
 
@@ -85,10 +85,18 @@ This contains information for connecting to your cloudflare account to provision
 
 Check out how these deployments happen under the hood at the [nitric main repository](https://github.com/nitrictech/nitric). Like what you see leave us a ⭐.
 
-Also [checkout our docs](https://nitric.io/docs) & [join us on discord](https://discord.gg/Webemece5C)
+Also [checkout our docs](https://nitric.io/docs) & [join us on discord](https://discord.gg/Webemece5C). 
+
+The demonstration of this application in action at PulumiUP 2023 is available on [YouTube](https://www.youtube.com/watch?v=x3V-IBfrBDI). 
 
 
+## About Nitric
 
+[Nitric](https://nitric.io) is a cloud-aware framework that enhances productivity, uniting backend and infrastructure code to build and ship cloud applications fast.
+
+We’ve taken a unique approach to self-service infrastructure with self-provisioning, which significantly boosts developer productivity and elevates their overall experience.
+
+Nitric also takes a cloud-agnostic approach, maintaining consistency across various cloud platforms, which is crucial to prevent vendor lock-in and ensure redundancy. This platform abstraction can empower organizations to adapt their application architectures without disrupting developer focus on innovation and your competitive edge. Apps built with Nitric can be deployed to AWS, Azure or Google Cloud all from the same code base.
 
 
 
